@@ -10,7 +10,7 @@ print(MB2)
 ###prediction
 Data <- data.frame(Sepal.Length=5.4, Sepal.Width=3.0, Petal.Length=4.7, Petal.Width=1.2)
 predict(MB2, Data)
-Data
+Dataa
 varImpPlot(MB2, pch = 16, col = "red", n.var = 4, sort = T, main =
              "Importance of Variables for the Iris data")
 ###if u r interested in feature selection, go for random forest.
